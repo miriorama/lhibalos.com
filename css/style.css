@@ -389,18 +389,23 @@ a {
 }
 
 .hero-stack::after {
+  background-color: var(--accent);
   content: "→";
-    font-size: 3rem;
-    color: var(--accent);
-    position: absolute;
-    bottom: 32px;
-    right: 32px;
-    border-radius: 28px;
-    pointer-events: none;
-    display: flex;
-    width: 20px;
-    height: 20px;
-    z-index: 10;
+  font-size: 2rem;
+  color: var(--black);
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 40px;
+  z-index: 10;
+  box-shadow: 0 0 24px rgba(21, 19, 14, 0.35);
 }
 
 .section {
@@ -462,18 +467,23 @@ a {
 }
 
 .photo-stack::after {
+  background-color: var(--accent);
   content: "→";
-    font-size: 3rem;
-    color: var(--accent);
-    position: absolute;
-    bottom: 32px;
-    right: 40px;
-    border-radius: 28px;
-    pointer-events: none;
-    display: flex;
-    width: 20px;
-    height: 20px;
-    z-index: 10;
+  font-size: 2rem;
+  color: var(--black);
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 40px;
+  z-index: 10;
+  box-shadow: 0 0 24px rgba(21, 19, 14, 0.35);
 }
 
 .photo-stack .stack-item {

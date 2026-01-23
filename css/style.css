@@ -699,7 +699,7 @@ a {
 
 .modal-content {
   width: 100%;
-  max-height: min(70vh, 600px);
+  height: min(70vh, 600px);
   overflow: auto;
   background: var(--accent);
   color: var(--black);

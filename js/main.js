@@ -118,7 +118,7 @@ class Balos {
 
   static updateBadgeRotation() {
     if (!Balos.badge) return;
-    Balos.badge.style.transform = `rotate(${window.scrollY * 0.02}deg)`;
+    Balos.badge.style.transform = `rotate(${window.scrollY * 0.045}deg)`;
     Balos.badgeTicking = false;
   }
 }
